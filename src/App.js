@@ -1,11 +1,20 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './containers/Home';
+import Projects from './containers/Projects';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={Home} />
+          <Route exact path="/projects" element={Projects} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
-
-export default App;
