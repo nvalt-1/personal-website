@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 
-export default function App() {
+export default function Projects() {
   return (
     <div className="Projects">
 
