@@ -28,7 +28,6 @@ const DefaultPaper = (props) => {
 }
 
 export default function Home() {
-  const theme = useTheme();
   return (
     <DefaultPaper width='100%'>
       <Grid container spacing={2}>
