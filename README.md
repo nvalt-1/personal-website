@@ -1,1 +1,1 @@
-My [personal website.](https://www.nvaltierra.com)
+My [personal website.](https://nvaltierra.com)
