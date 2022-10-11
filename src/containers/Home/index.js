@@ -75,8 +75,8 @@ export default function Home() {
               and data science/machine learning.
             </Typography>
             <Typography variant='body1' gutterBottom>
-              I am proficient in <b>Python</b> (NumPy, Pandas, Scikit-learn, Tensorflow), <b>C/C++</b> (C99, C11, C++11-20), 
-              and <b>Javascript</b> (Node, React, 
+              I am proficient in <b>Python</b> (NumPy, Pandas, Scikit-learn, Tensorflow), <b>C/C++</b> (C99, C11, C++11-20),
+              and <b>Javascript</b> (Node, React,
               Express), and have experience with <b>SQL</b>, <b>Java</b>, <b>C#</b> (Unity engine), and <b>R</b>.
             </Typography>
           </DefaultPaper>
@@ -98,6 +98,7 @@ export default function Home() {
           </Typography>
         </DefaultPaper>
         </Grid>
+        {/*
         <Grid item className='projects' xs={12} md={8} lg={4}>
           <DefaultPaper elevation={6}>
             <Typography variant='h5' color='text.secondary' gutterBottom>
@@ -117,9 +118,10 @@ export default function Home() {
             </Typography>
             <Button endIcon={<LaunchIcon />} href='/projects' size='small'>
               more
-            </Button> 
+            </Button>
           </DefaultPaper>
         </Grid>
+        */}
       </Grid>
     </DefaultPaper>
   );
